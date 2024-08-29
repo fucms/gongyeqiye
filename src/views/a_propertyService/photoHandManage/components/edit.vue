@@ -19,7 +19,7 @@
             </el-form-item>
           </el-col>
           <el-col :span="12">
-            <el-form-item label="问题编号" prop="customerName">
+            <el-form-item label="详细信息" prop="customerName">
               <el-input v-model="temp.customerName" />
             </el-form-item>
           </el-col>

@@ -63,7 +63,7 @@
         <el-table-column label="操作" align="center" min-width="120">
           <template slot-scope="{ row }">
             <el-button type="primary" size="mini">分派</el-button>
-            <el-button type="primary" size="mini">确定</el-button>
+            <el-button type="primary" size="mini" @click="handleUpdate(row)">编辑</el-button>
             <el-button size="mini" type="danger" @click="handleDelete(row)">删除</el-button>
           </template>
         </el-table-column>

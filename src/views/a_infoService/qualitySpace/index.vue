@@ -5,10 +5,10 @@
                 @keyup.enter.native="handleFilter" /> -->
       <el-form :inline="true" :model="listQuery" class="demo-form-inline">
         <el-form-item label="空间名称">
-          <el-input v-model="listQuery.filter" placeholder="请输入问题空间名称" />
+          <el-input v-model="listQuery.filter" placeholder="请输入空间名称" />
         </el-form-item>
         <el-form-item label="位置">
-          <el-input v-model="listQuery.filter" placeholder="请输入问题位置" />
+          <el-input v-model="listQuery.filter" placeholder="请输入位置" />
         </el-form-item>
         <el-form-item>
           <el-button class="filter-item" type="primary" icon="el-icon-search" @click="handleFilter">

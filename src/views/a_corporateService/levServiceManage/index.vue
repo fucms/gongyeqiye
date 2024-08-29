@@ -75,7 +75,7 @@
             >
               <el-button size="small" type="primary">上传图片</el-button>
             </el-upload>
-            <el-button type="primary" size="mini">确定</el-button>
+            <el-button type="primary" size="mini" @click="handleUpdate(row)">编辑</el-button>
             <el-button size="mini" type="danger" @click="handleDelete(row)">删除</el-button>
           </template>
         </el-table-column>
